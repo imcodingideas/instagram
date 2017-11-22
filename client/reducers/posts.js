@@ -1,8 +1,3 @@
-// a reducer takes in two things.
-
-// 1. it takes in the action
-// 2. copy of current state
-
 export default function posts (state = [], action) {
 	switch(action.type) {
 		case 'INCREMENT_LIKES':
